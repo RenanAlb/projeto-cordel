@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2? family= Bacasime+Antique & family= Cinzel & family= Courgette & family= Montserrat & family= Open+Sans & display=swap');
+
+/**/
+
+header {
+    background-color: #3C3C3C;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-style: inherit;
+    color: rgb(113, 128, 221);
+}
+
+header a:hover {
+    font-style: italic;
+    color: rgb(113, 128, 221);
+}
+
+main {
+    font-size: 1.4em;
+    font-family: 'Bacasime Antique', serif;
+}
+
+.normal {
+    line-height: 1.6em;
+    padding: 10px 0px 40px 40px;
+}
+
+.image1 {
+    background-image: url(img/img1.avif);
+    background-size: cover;
+    height: 400px;
+    background-attachment: fixed;   
+    position: relative;
+}
+
+.image2 {
+    background-image: url(img/img2.jpg);
+    background-size: cover;
+    height: 400px;
+    background-attachment: fixed;   
+    position: relative;
+}
+
+.text-image {
+    line-height: 1.6em;
+    margin: 50px 0px 0px 20px;
+    color: white;
+    padding: 20px;
+    background-color: rgba(4, 10, 39, 0.645);
+    border-radius: 10px;
+    width: 250px;
+    position: absolute;
+    
+}
+
+footer {
+    background-color: #3C3C3C;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font: normal 13pt Arial;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(113, 128, 221);
+}
+
+footer a:hover {
+    font-style: italic;
+}
